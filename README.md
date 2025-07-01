@@ -15,7 +15,7 @@ pip install torch transformers vllm func-timeout datasets
 python main.py --model qwen-instruct --dataset math --num_problems 50
 
 # With filtering
-python main.py --model llama-instruct --dataset mmlu --mmlu_subjects college_mathematics --num_problems 100
+python main.py --model llama-instruct --dataset math500 --math500_categories Algebra Geometry --num_problems 100
 ```
 
 ## Supported Models
@@ -30,7 +30,6 @@ python main.py --model llama-instruct --dataset mmlu --mmlu_subjects college_mat
 - `math` - GSM8K math problems
 - `math500` - Competition math (filter: `--math500_categories Algebra Geometry`)
 - `trivia` - TriviaQA factual questions
-- `mmlu` - Multi-domain knowledge (filter: `--mmlu_subjects` and `--mmlu_question_type factual|reasoning`)
 
 ## Arguments
 
