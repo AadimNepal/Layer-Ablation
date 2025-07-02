@@ -1,4 +1,4 @@
-# Layer Ablation Study for LLMs
+# Layer Ablation Study for LLMs..
 
 Framework for testing how individual transformer layers affect model performance by systematically zeroing out layers and measuring accuracy drops.
 
